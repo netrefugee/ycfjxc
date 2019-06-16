@@ -1,0 +1,32 @@
+﻿<Window x:Name="loginWindow" x:Class="YCFJXC.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YCFJXC"
+        mc:Ignorable="d"
+        Title="login" Height="381.522" Width="539.538" AllowsTransparency="True" WindowStyle="None" MouseLeftButtonDown="LoginWindow_MouseLeftButtonDown" FontSize="22" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="251*"/>
+            <RowDefinition Height="199*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="labUser" Content="用户名:" HorizontalAlignment="Left" Margin="78,173,0,0" VerticalAlignment="Top" Width="146"/>
+        <Label x:Name="labPwd" Content="密   码:" HorizontalAlignment="Left" Margin="78,29,0,0" VerticalAlignment="Top" Width="146" Grid.Row="1"/>
+        <TextBox x:Name="txtUser" HorizontalAlignment="Left" Height="31" Margin="197,181,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="236" Text="admin"/>
+        <TextBox x:Name="txtPwd" HorizontalAlignment="Left" Height="39" Margin="197,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Text="admin" Grid.Row="1"/>
+        <Button x:Name="cmdExit" Content="退  出" HorizontalAlignment="Left" Margin="198,101,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="37" AutomationProperties.IsRowHeader="True" Click="CmdExit_Click"/>
+        <Button x:Name="cmdOK" Content="登  录" HorizontalAlignment="Left" Margin="332,101,0,0" Grid.Row="1" VerticalAlignment="Top" Width="101" Height="37" Click="CmdOK_Click"/>
+        <Label x:Name="labUser_Copy" Content="总   门:" HorizontalAlignment="Left" Margin="78,114,0,0" VerticalAlignment="Top" Width="146"/>
+        <ComboBox x:Name="cobDepartment" HorizontalAlignment="Left" Margin="197,114,0,0" VerticalAlignment="Top" Width="236" AutomationProperties.IsRequiredForForm="True">
+            <ComboBoxItem Content="总部" IsSelected="True"/>
+            <ComboBoxItem Content="庆丰店"/>
+            <ComboBoxItem Content="红星店"/>
+        </ComboBox>
+        <Label Content="元呈坊进销存管理系统" HorizontalAlignment="Left" Margin="92,37,0,0" VerticalAlignment="Top" Width="375" FontSize="36" FontFamily="YouYuan" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

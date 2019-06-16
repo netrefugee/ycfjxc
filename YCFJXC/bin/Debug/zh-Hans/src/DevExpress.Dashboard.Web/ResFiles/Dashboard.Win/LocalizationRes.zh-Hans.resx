@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardWinStringId.CommandFormatRuleContains" xml:space="preserve">
+    <value>包含的文本</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitAutoCaption" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridMergeCellsCaption" xml:space="preserve">
+    <value>合并单元格</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceCustom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeCurrencyCaption" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeNumberCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongColumns" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="DashboardWinStringId.ChartCalculationAlongSeries" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceBlue" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartSeriesTypeCaption" xml:space="preserve">
+    <value>序列类型</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontBold" xml:space="preserve">
+    <value>加粗</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatQuarter" xml:space="preserve">
+    <value>季度</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalHour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionPercentValueType" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CardCalculationAlongCards" xml:space="preserve">
+    <value>卡片</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardParametersCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceYellow" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatAbbreviatedCaption" xml:space="preserve">
+    <value>简短</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextCaption" xml:space="preserve">
+    <value>编辑...</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatYear" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="DashboardWinStringId.RedoText" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDateTime" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeBar" xml:space="preserve">
+    <value>柱状图</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypePercent" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatFullCaption" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitOnesCaption" xml:space="preserve">
+    <value>部分</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceDataMember" xml:space="preserve">
+    <value>数据成员</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAutomaticValueType" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="DashboardWinStringId.WeightedLegendGalleryGroupCaption" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatAbbreviatedCaption" xml:space="preserve">
+    <value>简短</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalYear" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeLong" xml:space="preserve">
+    <value>整数</value>
+  </data>
+  <data name="DashboardWinStringId.RankOrderAscending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionNumberValueType" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceOrange" xml:space="preserve">
+    <value>橙色</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetNext" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleValue" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatAbbreviatedCaption" xml:space="preserve">
+    <value>简短</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridLayoutCaption" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyleAppearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontItalic" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontUnderline" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeArea" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatDay" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartLegendPositionCaption" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBetween" xml:space="preserve">
+    <value>之间</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatSecond" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="DashboardWinStringId.RangeFilterCalculationAlongSeries" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatFullCaption" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalMonth" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupScatterChartLabelsCaption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="DashboardWinStringId.RangeFilterCalculationAlongArgument" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageTextBoxFormatCaption" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatFullCaption" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleExpression" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="DashboardWinStringId.RankOrderDescending" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageImageOptionsCaption" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalDay" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardFormatConditionPercentValue" xml:space="preserve">
+    <value>取模</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitMillionsCaption" xml:space="preserve">
+    <value>数以百万计</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceRed" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleAboveBelowAverage" xml:space="preserve">
+    <value>平均值</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMonth" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalSecond" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThan" xml:space="preserve">
+    <value>大于</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatNumericCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieLabelsCaption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalQuarter" xml:space="preserve">
+    <value>季度</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatNumericCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDecimal" xml:space="preserve">
+    <value>十进制</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeGeneralCaption" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBar" xml:space="preserve">
+    <value>柱状图</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRange" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeExpression" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitThousandsCaption" xml:space="preserve">
+    <value>千</value>
+  </data>
+  <data name="DashboardWinStringId.ChartCalculationAlongArguments" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeString" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThan" xml:space="preserve">
+    <value>小于</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridManualGridColumnWidthModeCaption" xml:space="preserve">
+    <value>手册</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridWordWrapCaption" xml:space="preserve">
+    <value>字环绕</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGreen" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatNumericCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatHour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetPrevious" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleEqualTo" xml:space="preserve">
+    <value>等于</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypePercentCaption" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleApplyTo" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUndoCaption" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitBillionsCaption" xml:space="preserve">
+    <value>数十亿</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeLine" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatFullCaption" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGaugeStyleCaption" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="DashboardWinStringId.CardRowDataElementTypeTitleCaption" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="DashboardWinStringId.CardLayoutTemplateNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetFirst" xml:space="preserve">
+    <value>第一个</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetLast" xml:space="preserve">
+    <value>最后一个</value>
+  </data>
+  <data name="DashboardWinStringId.CardLayoutTemplateCustomCaption" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="DashboardWinStringId.RankTypeUnique" xml:space="preserve">
+    <value>独特</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelPositionOutsideCaption" xml:space="preserve">
+    <value>外部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelPositionInsideCaption" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="DashboardWinStringId.CardRowDataElementTypeSparklineCaption" xml:space="preserve">
+    <value>迷你图</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeBoolean" xml:space="preserve">
+    <value>布尔</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalMinute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMinute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypeActualValueCaption" xml:space="preserve">
+    <value>实际值</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatLongCaption" xml:space="preserve">
+    <value>长时间</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeWarningIfGreaterCaption" xml:space="preserve">
+    <value>如果大于就警告</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupContentArrangementCaption" xml:space="preserve">
+    <value>内容安排</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeNoIndicationCaption" xml:space="preserve">
+    <value>无指示</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypePercentVariationCaption" xml:space="preserve">
+    <value>百分比变化</value>
+  </data>
+  <data name="DashboardWinStringId.CommandCrossDataSourceFilteringCaption" xml:space="preserve">
+    <value>交叉数据源的过滤</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeWarningIfLessCaption" xml:space="preserve">
+    <value>如果小于就警告</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartShowLegendCaption" xml:space="preserve">
+    <value>显示图例</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeScientificCaption" xml:space="preserve">
+    <value>科学</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypeAbsolute" xml:space="preserve">
+    <value>绝对</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnHeadersCaption" xml:space="preserve">
+    <value>列表头</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeLessIsGoodCaption" xml:space="preserve">
+    <value>小既是好</value>
+  </data>
+  <data name="DashboardWinStringId.MenuDimensionSortBy" xml:space="preserve">
+    <value>排序：</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypeAbsoluteVariationCaption" xml:space="preserve">
+    <value>绝对变化</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridBandedRowsCaption" xml:space="preserve">
+    <value>联合行</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridHorizontalLinesCaption" xml:space="preserve">
+    <value>水平线</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeGreaterIsGoodCaption" xml:space="preserve">
+    <value>大既是好</value>
+  </data>
+  <data name="DashboardWinStringId.CommandShowCaptionCaption" xml:space="preserve">
+    <value>显示标题</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatShortCaption" xml:space="preserve">
+    <value>短时间格式</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardCurrencyUseCurrentCurrency" xml:space="preserve">
+    <value>使用客户端系统设置</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDrillDownCaption" xml:space="preserve">
+    <value>向下钻取</value>
+  </data>
+  <data name="DashboardWinStringId.CommandIgnoreMasterFiltersCaption" xml:space="preserve">
+    <value>忽略主过滤器</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridVerticalLinesCaption" xml:space="preserve">
+    <value>垂直线</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypePercentOfTargetCaption" xml:space="preserve">
+    <value>百分比目标</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartAddPaneCaption" xml:space="preserve">
+    <value>添加窗格</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapLegendPositionCaption" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatLongCaption" xml:space="preserve">
+    <value>长</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatShortCaption" xml:space="preserve">
+    <value>短</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupCommonCaption" xml:space="preserve">
+    <value>常见</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeWinLoss" xml:space="preserve">
+    <value>赢/输</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToBubbleMapCaption" xml:space="preserve">
+    <value>气泡图</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGeoPointMapCaption" xml:space="preserve">
+    <value>土力工程处点地图</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieShowCaptionsCaption" xml:space="preserve">
+    <value>显示饼图字幕</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatTimeOnlyCaption" xml:space="preserve">
+    <value>仅次</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupWeightedLegendPositionCaption" xml:space="preserve">
+    <value>加权图例</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThanOrEqualTo" xml:space="preserve">
+    <value>大于或等于</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThanOrEqualTo" xml:space="preserve">
+    <value>小于或等于</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleColorRangeBar" xml:space="preserve">
+    <value>颜色范围栏</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBottomN" xml:space="preserve">
+    <value>底部 N</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleNotEqualTo" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeIcons" xml:space="preserve">
+    <value>图标范围</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeSet" xml:space="preserve">
+    <value>设置范围</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleTopBottom" xml:space="preserve">
+    <value>顶部/底部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleTopN" xml:space="preserve">
+    <value>前 N 位</value>
+  </data>
+  <data name="DashboardWinStringId.CommandScatterChartPointLabelOptionsCaption" xml:space="preserve">
+    <value>点标签</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleAllowNegativeAxis" xml:space="preserve">
+    <value>允许负轴</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleApplyToColumn" xml:space="preserve">
+    <value>应用于列</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleApplyToRow" xml:space="preserve">
+    <value>应用于行</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleDrawAxis" xml:space="preserve">
+    <value>绘制轴</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyle" xml:space="preserve">
+    <value>样式设置</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyleIcons" xml:space="preserve">
+    <value>图标</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceCyan" xml:space="preserve">
+    <value>青色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontBlue" xml:space="preserve">
+    <value>蓝色字体</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientBlue" xml:space="preserve">
+    <value>渐变蓝色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGray" xml:space="preserve">
+    <value>灰色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleBlue" xml:space="preserve">
+    <value>淡蓝色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleCyan" xml:space="preserve">
+    <value>淡青色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleGray" xml:space="preserve">
+    <value>浅灰色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleGreen" xml:space="preserve">
+    <value>淡绿色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleOrange" xml:space="preserve">
+    <value>淡橙色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePalePurple" xml:space="preserve">
+    <value>淡紫色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleRed" xml:space="preserve">
+    <value>淡红色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleYellow" xml:space="preserve">
+    <value>淡黄色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePurple" xml:space="preserve">
+    <value>紫色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontGreen" xml:space="preserve">
+    <value>绿色字体</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontRed" xml:space="preserve">
+    <value>红色字体</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientPurple" xml:space="preserve">
+    <value>渐变紫色</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientTransparent" xml:space="preserve">
+    <value>渐变透明</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeFirst" xml:space="preserve">
+    <value>第一级</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeLast" xml:space="preserve">
+    <value>最后一个级别</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeAll" xml:space="preserve">
+    <value>所有级别</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeAuto" xml:space="preserve">
+    <value>(自动)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowTotalsCaption" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="DashboardWinStringId.GridCalculationAlongRowsAndSparklineArgument" xml:space="preserve">
+    <value>行 / 迷你图参数</value>
+  </data>
+  <data name="DashboardWinStringId.GridCalculationAlongSparklineArgumentAndRows" xml:space="preserve">
+    <value>迷你图参数行 /</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongColumnsAndRows" xml:space="preserve">
+    <value>列 / 行</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGradientRangeBar" xml:space="preserve">
+    <value>酒吧梯度范围</value>
+  </data>
+  <data name="DashboardWinStringId.CardCalculationAlongSparklineArgumentAndCards" xml:space="preserve">
+    <value>迷你图参数 / 卡</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDouble" xml:space="preserve">
+    <value>双</value>
+  </data>
+  <data name="DashboardWinStringId.CardCalculationAlongCardsAndSparklineArgument" xml:space="preserve">
+    <value>卡 / 迷你图参数</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongRowsAndColumns" xml:space="preserve">
+    <value>行 / 列</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRunningSummaryCalculation" xml:space="preserve">
+    <value>运行总结</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongGroupsInColumnsAndRows" xml:space="preserve">
+    <value>列 / 行内组</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongGroupsInRowsAndColumns" xml:space="preserve">
+    <value>行 / 列在组内的</value>
+  </data>
+</root>
